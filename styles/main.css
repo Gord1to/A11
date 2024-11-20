@@ -258,7 +258,19 @@ footer p {
 		display: block;
 	}
 
+	#mobile_menu {
+		display: block; /* Show the mobile menu */
+	}
+
 	.slicknav_menu {
 		background-color: #800000 !important;
+		display: block !important;
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		z-index: 9999;
 	}
+
 }
+
